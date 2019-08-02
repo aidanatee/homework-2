@@ -33,6 +33,7 @@ class Chat extends React.Component {
         });
         return (
             <div className='chat'>
+                
                 <div className="message-list"> 
                   <div className="messages">{messages}</div>
                 </div>
