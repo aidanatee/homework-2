@@ -1,13 +1,14 @@
 .message {
-  margin: 5px 0;
-  align-self: left;
-  background-color: #5b5bff;
-  border-radius: 16px;
-  color: #fff;
+  background-color: rgb(91, 91, 255);
+  color: rgb(255, 255, 255);
   font-family: Arial, Helvetica, sans-serif;
-  padding: 5px 15px;
   align-self: baseline;
+  margin: 5px 0px;
+  border-radius: 16px;
+  padding: 5px 15px;
 }
+
+
 
 .message__like {
   width: auto;
