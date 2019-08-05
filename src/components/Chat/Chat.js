@@ -18,8 +18,8 @@ class Chat extends React.Component {
 
     sendMessageOnEnter = (e) => {
         if (e.key === 'Enter') {
-            this.setState((prevState, state) => ({ 
-                messages: [...prevState.messages, { "text": this.state.messageInput }],
+            this.setState((prevState) => ({ 
+                messages: [...prevState.messages, { "text": prevState.messageInput }],
                 messageInput: ""
             }))
         }
